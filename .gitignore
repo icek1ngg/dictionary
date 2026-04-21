@@ -13,7 +13,6 @@ out/
 # ── Compiled objects / binaries ───────────────────────────────
 *.o
 *.obj
-*.exe
 *.dll
 *.so
 *.dylib
