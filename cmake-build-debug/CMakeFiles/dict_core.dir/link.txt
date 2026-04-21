@@ -1,2 +1,0 @@
-D:\JetBrains\CLion\bin\mingw\bin\ar.exe qc libdict_core.a CMakeFiles/dict_core.dir/dict_core_autogen/mocs_compilation.cpp.obj CMakeFiles/dict_core.dir/src/core/dict_db.c.obj CMakeFiles/dict_core.dir/src/core/dict_search.c.obj CMakeFiles/dict_core.dir/src/core/dict_history.c.obj CMakeFiles/dict_core.dir/src/core/dict_bookmark.c.obj
-D:\JetBrains\CLion\bin\mingw\bin\ranlib.exe libdict_core.a

@@ -1,0 +1,26 @@
+# ── Build artifacts ────────────────────────────────────────────
+cmake-build-*/
+build/
+out/
+
+# ── IDE / editor files ────────────────────────────────────────
+.idea/
+.vscode/
+*.user
+*.swp
+*~
+
+# ── Compiled objects / binaries ───────────────────────────────
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# ── OS junk ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

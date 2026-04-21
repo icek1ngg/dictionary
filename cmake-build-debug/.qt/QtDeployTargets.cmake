@@ -1,7 +1,0 @@
-set(__QT_DEPLOY_TARGET_sqlite3_amalg_FILE C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/libsqlite3_amalg.a)
-set(__QT_DEPLOY_TARGET_sqlite3_amalg_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_dict_core_FILE C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/libdict_core.a)
-set(__QT_DEPLOY_TARGET_dict_core_TYPE STATIC_LIBRARY)
-set(__QT_DEPLOY_TARGET_OfflineDictionary_FILE C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/OfflineDictionary.exe)
-set(__QT_DEPLOY_TARGET_OfflineDictionary_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_OfflineDictionary_RUNTIME_DLLS D:/Qt/6.10.2/mingw_64/bin/Qt6Widgets.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Multimedia.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Gui.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Network.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Concurrent.dll;D:/Qt/6.10.2/mingw_64/bin/Qt6Core.dll)

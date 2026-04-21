@@ -1,0 +1,9 @@
+# ── GitHub Linguist overrides ──────────────────────────────────
+# Exclude generated / vendored files from language statistics.
+
+# CMake build artifacts
+cmake-build-*/** linguist-generated
+Makefile linguist-generated
+
+# Bundled SQLite amalgamation
+third_party/** linguist-vendored
