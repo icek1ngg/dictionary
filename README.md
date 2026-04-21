@@ -106,15 +106,29 @@ dictionary/
 
 ---
 
-## 🚀 Build & Run
+## 🚀 Download & Run (For Users)
 
-### Using CLion (recommended)
+1. Go to the **[Releases](https://github.com/icek1ngg/dictionary/releases)** page.
+2. Download the latest `OfflineDictionary_Release.zip`.
+3. Extract the ZIP file to any folder on your computer.
+4. Double-click `OfflineDictionary.exe` to launch the app! (*No installation required*)
+
+On first launch, the application will:
+1. Create `dictionary.db` if it does not exist.
+2. Run SQL migrations.
+3. Automatically load sample English–Vietnamese data.
+
+---
+
+## 🛠️ Build from Source (For Developers)
+
+### Using CLion (Recommended)
 
 1. Open the `dictionary/` folder as a CMake project.
 2. Ensure Qt 6 is detected (set `CMAKE_PREFIX_PATH` if needed).
 3. Build and run the `OfflineDictionary` target.
 
-### Using the command line
+### Using the Command Line
 
 ```bash
 # Configure
@@ -122,15 +136,7 @@ cmake -B build -S dictionary -DCMAKE_PREFIX_PATH=/path/to/Qt/6.x.x/mingw_64
 
 # Build
 cmake --build build --target OfflineDictionary -j $(nproc)
-
-# Run
-./build/OfflineDictionary
 ```
-
-On first launch, the application will:
-1. Create `dictionary.db` if it does not exist.
-2. Run SQL migrations from `db/migrations/`.
-3. Seed sample English–Vietnamese data from `db/seed/sample_data.sql`.
 
 ---
 
