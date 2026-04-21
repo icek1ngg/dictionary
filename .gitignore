@@ -20,6 +20,13 @@ out/
 *.a
 *.lib
 
+# ── Database files ─────────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
 # ── OS junk ───────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
