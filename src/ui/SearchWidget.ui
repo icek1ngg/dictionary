@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SearchWidget</class>
+ <widget class="QWidget" name="SearchWidget">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>280</width><height>400</height></rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="leftMargin"><number>14</number></property>
+   <property name="topMargin"><number>14</number></property>
+   <property name="rightMargin"><number>14</number></property>
+   <property name="bottomMargin"><number>14</number></property>
+   <property name="spacing"><number>10</number></property>
+   <item>
+    <layout class="QHBoxLayout" name="searchRow">
+     <property name="spacing"><number>6</number></property>
+     <item>
+      <widget class="QLineEdit" name="m_input">
+       <property name="minimumSize"><size><width>0</width><height>34</height></size></property>
+       <property name="maximumSize"><size><width>16777215</width><height>34</height></size></property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed"/>
+       </property>
+       <property name="placeholderText"><string>Search a word…</string></property>
+       <property name="clearButtonEnabled"><bool>true</bool></property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="m_searchBtn">
+       <property name="minimumSize"><size><width>82</width><height>34</height></size></property>
+       <property name="maximumSize"><size><width>110</width><height>34</height></size></property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed"/>
+       </property>
+       <property name="text"><string>Search</string></property>
+       <property name="default"><bool>true</bool></property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="m_historyTitle">
+     <property name="text"><string>Recent searches</string></property>
+     <property name="styleSheet"><string>color:#4A5F5A; font-size:12px; font-weight:700; letter-spacing:0.3px;</string></property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QListWidget" name="m_historyList">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>160</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

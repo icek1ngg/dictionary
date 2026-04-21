@@ -1,0 +1,6 @@
+D:\JetBrains\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\Users\ADMIN\OneDrive\Desktop\C\Dic3.0 -B C:\Users\ADMIN\OneDrive\Desktop\C\Dic3.0\cmake-build-debug
+-- Qt6 auto-detected: D:/Qt/6.10.2/mingw_64
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.3s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug

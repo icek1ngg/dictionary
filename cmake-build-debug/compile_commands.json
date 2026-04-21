@@ -1,0 +1,92 @@
+[
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/sqlite3_amalg_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\sqlite3_amalg.dir\\sqlite3_amalg_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\cmake-build-debug\\sqlite3_amalg_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/sqlite3_amalg_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/sqlite3_amalg.dir/sqlite3_amalg_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/sqlite3_amalg_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\sqlite3_amalg.dir\\third_party\\sqlite3\\sqlite3.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\third_party\\sqlite3\\sqlite3.c",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3/sqlite3.c",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/sqlite3_amalg.dir/third_party/sqlite3/sqlite3.c.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\dict_core.dir\\dict_core_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\cmake-build-debug\\dict_core_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/dict_core.dir/dict_core_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dict_core.dir\\src\\core\\dict_db.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\core\\dict_db.c",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_db.c",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/dict_core.dir/src/core/dict_db.c.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dict_core.dir\\src\\core\\dict_search.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\core\\dict_search.c",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_search.c",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/dict_core.dir/src/core/dict_search.c.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dict_core.dir\\src\\core\\dict_history.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\core\\dict_history.c",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_history.c",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/dict_core.dir/src/core/dict_history.c.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/dict_core_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -g -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\dict_core.dir\\src\\core\\dict_bookmark.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\core\\dict_bookmark.c",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_bookmark.c",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/dict_core.dir/src/core/dict_bookmark.c.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\OfflineDictionary_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\cmake-build-debug\\OfflineDictionary_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/mocs_compilation.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/OfflineDictionary_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\main.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\main.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/main.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\ui\\MainWindow.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\ui\\MainWindow.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/MainWindow.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/ui/MainWindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\ui\\SearchWidget.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\ui\\SearchWidget.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/SearchWidget.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/ui/SearchWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\ui\\DictionaryView.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\ui\\DictionaryView.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/DictionaryView.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/ui/DictionaryView.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\ui\\BookmarkWidget.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\ui\\BookmarkWidget.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/BookmarkWidget.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/ui/BookmarkWidget.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\ui\\WordEditorDialog.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\ui\\WordEditorDialog.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/WordEditorDialog.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/ui/WordEditorDialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug",
+  "command": "D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DDICT_SOURCE_DIR=\\\"C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_MULTIMEDIA_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -DSQLITE_ENABLE_FTS5 -DSQLITE_THREADSAFE=1 -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/include -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src -IC:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/third_party/sqlite3 -isystem D:/Qt/6.10.2/mingw_64/include/QtCore -isystem D:/Qt/6.10.2/mingw_64/include -isystem D:/Qt/6.10.2/mingw_64/mkspecs/win32-g++ -isystem D:/Qt/6.10.2/mingw_64/include/QtWidgets -isystem D:/Qt/6.10.2/mingw_64/include/QtGui -isystem D:/Qt/6.10.2/mingw_64/include/QtMultimedia -isystem D:/Qt/6.10.2/mingw_64/include/QtNetwork -g -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\OfflineDictionary.dir\\src\\models\\DictManager.cpp.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dic3.0\\src\\models\\DictManager.cpp",
+  "file": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/models/DictManager.cpp",
+  "output": "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/OfflineDictionary.dir/src/models/DictManager.cpp.obj"
+}
+]
