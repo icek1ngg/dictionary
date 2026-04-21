@@ -11,6 +11,121 @@ events:
   -
     kind: "find-v1"
     backtrace:
+      - "D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "D:/JetBrains/CLion/bin/mingw/bin/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/ProgramData/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/MinGW/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/cursor/resources/app/bin/"
+      - "C:/Program Files/Java/jdk1.8.0_202/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR/"
+      - "C:/Program Files/Java/jdk-17/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/apache-maven-3.9.11/bin/"
+      - "C:/Program Files/dotnet/"
+      - "D:/Qt/6.10.2/mingw_64/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Cloudflare/Cloudflare WARP/"
+      - "C:/Users/ADMIN/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/Users/ADMIN/.lmstudio/bin/"
+      - "C:/Program Files/Azure Data Studio/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Ollama/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/cursor/re/"
+      - "C:/Program Files/fastfetch/"
+      - "D:/JetBrains/Toolbox/scripts/"
+      - "D:/cursor/resources/app/bin/"
+      - "D:/Antigravity/bin/"
+      - "D:/JetBrains/CLion/bin/ninja/win/x64/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe.com"
+    found: "D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "D:\\JetBrains\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "c:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "D:\\Qt\\6.10.2\\mingw_64\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\ProgramData\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\Java\\jdk-17\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\apache-maven-3.9.11\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\Users\\ADMIN\\.lmstudio\\bin"
+        - "C:\\Program Files\\Azure Data Studio\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\re"
+        - "C:\\Program Files\\fastfetch"
+        - "D:\\JetBrains\\Toolbox\\scripts"
+        - "D:\\cursor\\resources\\app\\bin"
+        - "D:\\Antigravity\\bin"
+        - "D:\\JetBrains\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
       - "D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
       - "D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
       - "CMakeLists.txt:2 (project)"
@@ -53,6 +168,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -95,6 +212,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -171,6 +290,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -221,7 +342,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
+        C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -262,6 +383,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -301,6 +424,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -370,6 +495,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -409,6 +536,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -478,6 +607,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -517,6 +648,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -586,6 +719,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -625,6 +760,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -694,6 +831,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -733,6 +872,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -802,6 +943,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -841,6 +984,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -910,6 +1055,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -949,6 +1096,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1018,6 +1167,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -1057,6 +1208,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1126,6 +1279,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -1165,6 +1320,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1234,6 +1391,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -1273,6 +1432,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1342,6 +1503,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -1415,6 +1578,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
       - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/tapi"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/tapi.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/tapi.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/tapi"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/tapi"
@@ -1482,6 +1651,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1554,6 +1725,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -1627,6 +1800,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1"
@@ -1729,6 +1908,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13"
@@ -1831,6 +2016,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13"
@@ -1899,6 +2090,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -1971,6 +2164,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -2044,6 +2239,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1"
@@ -2146,6 +2347,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13"
@@ -2248,6 +2455,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13"
@@ -2316,6 +2529,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2399,6 +2614,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2475,6 +2692,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2525,7 +2744,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
+        C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -2569,6 +2788,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -2642,6 +2863,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.1"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.1"
@@ -2744,6 +2971,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar-13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar-13"
@@ -2846,6 +3079,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ar13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ar13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ar13"
@@ -2914,6 +3153,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -2986,6 +3227,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -3059,6 +3302,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.1"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.1"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.1"
@@ -3161,6 +3410,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib-13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib-13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib-13"
@@ -3263,6 +3518,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.com"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/gcc-ranlib13"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/gcc-ranlib13"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/gcc-ranlib13"
@@ -3331,6 +3592,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -3403,6 +3666,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -3454,6 +3719,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -3499,8 +3766,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pjncyk"
-      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pjncyk"
+      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq"
+      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3509,10 +3776,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pjncyk'
+        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq'
         
-        Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_82173
-        [1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj -c D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5eeb9/fast
+        D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5eeb9.dir\\build.make CMakeFiles/cmTC_5eeb9.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq'
+        Building C object CMakeFiles/cmTC_5eeb9.dir/CMakeCCompilerABI.c.obj
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj -c D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -3520,8 +3790,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/'
-         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_82173.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccixp3VG.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\'
+         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_5eeb9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccdoxlll.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -3539,13 +3809,14 @@ events:
          D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/'
-         as -v -o CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccixp3VG.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\'
+         as -v -o CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccdoxlll.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj -o cmTC_82173.exe -Wl,--out-implib,libcmTC_82173.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5eeb9.exe
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5eeb9.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -3556,12 +3827,16 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82173.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_82173.'
-         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_82173.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_82173.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5eeb9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5eeb9.'
+         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_5eeb9.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5eeb9.dir/objects.a --no-whole-archive --out-implib libcmTC_5eeb9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_82173.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_82173.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
-        GNU ld (GNU Binutils) 2.40\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82173.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_82173.'\x0d
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_5eeb9.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5eeb9.dir/objects.a --no-whole-archive --out-implib libcmTC_5eeb9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5eeb9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5eeb9.'
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_5eeb9.dir/objects.a
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_5eeb9.dir/objects.a @CMakeFiles\\cmTC_5eeb9.dir\\objects1.rsp
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_5eeb9.dir/objects.a -Wl,--no-whole-archive -o cmTC_5eeb9.exe -Wl,--out-implib,libcmTC_5eeb9.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq'
         
       exitCode: 0
   -
@@ -3596,10 +3871,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pjncyk']
+        ignore line: [Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_82173]
-        ignore line: [[1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj -c D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_5eeb9/fast]
+        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5eeb9.dir\\build.make CMakeFiles/cmTC_5eeb9.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4bsuoq']
+        ignore line: [Building C object CMakeFiles/cmTC_5eeb9.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj -c D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3607,8 +3885,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/']
-        ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_82173.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccixp3VG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\']
+        ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_5eeb9.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccdoxlll.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -3626,8 +3904,8 @@ events:
         ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccixp3VG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccdoxlll.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
@@ -3636,9 +3914,10 @@ events:
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj -o cmTC_82173.exe -Wl --out-implib libcmTC_82173.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5eeb9.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5eeb9.exe]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_5eeb9.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -3655,14 +3934,14 @@ events:
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_82173.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_82173.']
-        link line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_82173.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_82173.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5eeb9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_5eeb9.']
+        link line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_5eeb9.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5eeb9.dir/objects.a --no-whole-archive --out-implib libcmTC_5eeb9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_82173.exe] ==> ignore
+          arg [cmTC_5eeb9.exe] ==> ignore
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -3672,9 +3951,11 @@ events:
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_5eeb9.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_82173.dll.a] ==> ignore
+          arg [libcmTC_5eeb9.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3702,7 +3983,7 @@ events:
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_82173.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_82173.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_82173.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_5eeb9.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5eeb9.dir/objects.a --no-whole-archive --out-implib libcmTC_5eeb9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         linker tool for 'C': D:/JetBrains/CLion/bin/mingw/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]
@@ -3743,8 +4024,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-90a5xi"
-      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-90a5xi"
+      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh"
+      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3754,10 +4035,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-90a5xi'
+        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh'
         
-        Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1ea88
-        [1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj -c D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f1e47/fast
+        D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f1e47.dir\\build.make CMakeFiles/cmTC_f1e47.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh'
+        Building CXX object CMakeFiles/cmTC_f1e47.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -3765,8 +4049,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/'
-         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1ea88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccSnTGQW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\'
+         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f1e47.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccbl29Wz.s
         GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -3790,13 +4074,14 @@ events:
          D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: e75de627edc3c57e31324b930b15b056
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/'
-         as -v -o CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccSnTGQW.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\'
+         as -v -o CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccbl29Wz.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
-        LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.'\x0d
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1ea88.exe -Wl,--out-implib,libcmTC_1ea88.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f1e47.exe
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f1e47.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -3807,12 +4092,16 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ea88.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1ea88.'
-         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1ea88.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1ea88.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1e47.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f1e47.'
+         D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f1e47.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f1e47.dir/objects.a --no-whole-archive --out-implib libcmTC_f1e47.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_1ea88.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1ea88.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
-        GNU ld (GNU Binutils) 2.40\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ea88.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1ea88.'\x0d
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_f1e47.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f1e47.dir/objects.a --no-whole-archive --out-implib libcmTC_f1e47.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1e47.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f1e47.'
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f1e47.dir/objects.a
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_f1e47.dir/objects.a @CMakeFiles\\cmTC_f1e47.dir\\objects1.rsp
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_f1e47.dir/objects.a -Wl,--no-whole-archive -o cmTC_f1e47.exe -Wl,--out-implib,libcmTC_f1e47.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh'
         
       exitCode: 0
   -
@@ -3853,10 +4142,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-90a5xi']
+        ignore line: [Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1ea88]
-        ignore line: [[1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj -c D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_f1e47/fast]
+        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f1e47.dir\\build.make CMakeFiles/cmTC_f1e47.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ysvykh']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f1e47.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -3864,8 +4156,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/']
-        ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1ea88.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccSnTGQW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\']
+        ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f1e47.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccbl29Wz.s]
         ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -3889,8 +4181,8 @@ events:
         ignore line: [ D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccSnTGQW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\']
+        ignore line: [ as -v -o CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccbl29Wz.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/]
@@ -3899,9 +4191,10 @@ events:
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
-        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.'\x0d]
-        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_1ea88.exe -Wl --out-implib libcmTC_1ea88.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_f1e47.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f1e47.exe]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f1e47.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -3918,14 +4211,14 @@ events:
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1ea88.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_1ea88.']
-        link line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_1ea88.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1ea88.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f1e47.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_f1e47.']
+        link line: [ D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_f1e47.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f1e47.dir/objects.a --no-whole-archive --out-implib libcmTC_f1e47.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_1ea88.exe] ==> ignore
+          arg [cmTC_f1e47.exe] ==> ignore
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -3935,9 +4228,11 @@ events:
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_f1e47.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_1ea88.dll.a] ==> ignore
+          arg [libcmTC_f1e47.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3966,7 +4261,7 @@ events:
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_1ea88.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_1ea88.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_1ea88.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [D:\\JetBrains\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_f1e47.exe D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LD:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f1e47.dir/objects.a --no-whole-archive --out-implib libcmTC_f1e47.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/JetBrains/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         linker tool for 'CXX': D:/JetBrains/CLion/bin/mingw/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -3999,7 +4294,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:12 (find_program)"
+      - "CMakeLists.txt:14 (find_program)"
     mode: "program"
     variable: "QMAKE_EXE"
     description: "Path to a program."
@@ -4035,6 +4330,8 @@ events:
       - "C:/apache-maven-3.9.11/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -4086,6 +4383,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4133,12 +4432,12 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:180 (include)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-id7ou0"
-      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-id7ou0"
+      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qj4b1g"
+      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qj4b1g"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -4148,11 +4447,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-id7ou0'
+        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qj4b1g'
         
-        Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_c0330
-        [1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -fdiagnostics-color=always -o CMakeFiles/cmTC_c0330.dir/src.c.obj -c C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-id7ou0/src.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe   CMakeFiles/cmTC_c0330.dir/src.c.obj -o cmTC_c0330.exe -Wl,--out-implib,libcmTC_c0330.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_9b442/fast
+        D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9b442.dir\\build.make CMakeFiles/cmTC_9b442.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qj4b1g'
+        Building C object CMakeFiles/cmTC_9b442.dir/src.c.obj
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu11 -fdiagnostics-color=always -o CMakeFiles\\cmTC_9b442.dir\\src.c.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dictionary\\dictionary\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-qj4b1g\\src.c
+        Linking C executable cmTC_9b442.exe
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_9b442.dir\\link.txt --verbose=1
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_9b442.dir/objects.a
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_9b442.dir/objects.a @CMakeFiles\\cmTC_9b442.dir\\objects1.rsp
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_9b442.dir/objects.a -Wl,--no-whole-archive -o cmTC_9b442.exe -Wl,--out-implib,libcmTC_9b442.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_9b442.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qj4b1g'
         
       exitCode: 0
   -
@@ -4166,12 +4473,12 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:36 (_qt_internal_find_third_party_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8u4mbv"
-      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8u4mbv"
+      source: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5fyfp2"
+      binary: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5fyfp2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -4181,11 +4488,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8u4mbv'
+        Change Dir: 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5fyfp2'
         
-        Run Build Command(s): D:/JetBrains/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_5b3c9
-        [1/2] D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_5b3c9.dir/src.cxx.obj -c C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8u4mbv/src.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe   CMakeFiles/cmTC_5b3c9.dir/src.cxx.obj -o cmTC_5b3c9.exe -Wl,--out-implib,libcmTC_5b3c9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_e1592/fast
+        D:/JetBrains/CLion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e1592.dir\\build.make CMakeFiles/cmTC_e1592.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5fyfp2'
+        Building CXX object CMakeFiles/cmTC_e1592.dir/src.cxx.obj
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles\\cmTC_e1592.dir\\src.cxx.obj -c C:\\Users\\ADMIN\\OneDrive\\Desktop\\C\\Dictionary\\dictionary\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-5fyfp2\\src.cxx
+        Linking CXX executable cmTC_e1592.exe
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_e1592.dir\\link.txt --verbose=1
+        D:\\JetBrains\\CLion\\bin\\cmake\\win\\x64\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_e1592.dir/objects.a
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\ar.exe qc CMakeFiles\\cmTC_e1592.dir/objects.a @CMakeFiles\\cmTC_e1592.dir\\objects1.rsp
+        D:\\JetBrains\\CLion\\bin\\mingw\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_e1592.dir/objects.a -Wl,--no-whole-archive -o cmTC_e1592.exe -Wl,--out-implib,libcmTC_e1592.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_e1592.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5fyfp2'
         
       exitCode: 0
   -
@@ -4195,7 +4510,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6CoreTools"
     configs:
       -
@@ -4233,11 +4548,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4275,6 +4590,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4319,7 +4636,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:51 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6EntryPointPrivate"
     configs:
       -
@@ -4357,11 +4674,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4399,6 +4716,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4442,7 +4761,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake:30 (_qt_internal_setup_deploy_support)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:190 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "program"
     variable: "WINDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -4479,6 +4798,8 @@ events:
       - "C:/apache-maven-3.9.11/bin/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -4532,6 +4853,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4572,7 +4895,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -4607,11 +4930,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4649,6 +4972,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4695,7 +5020,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6GuiTools"
     configs:
       -
@@ -4733,11 +5058,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4775,6 +5100,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4818,7 +5145,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6WidgetsTools"
     configs:
       -
@@ -4856,11 +5183,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4898,6 +5225,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -4947,7 +5276,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -4984,6 +5313,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -5030,6 +5361,8 @@ events:
       - "C:/Program Files/dotnet/vulkan/vulkan.h"
       - "D:/Qt/6.10.2/mingw_64/bin/vulkan/vulkan.h"
       - "C:/Program Files/Docker/Docker/resources/bin/vulkan/vulkan.h"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/vulkan/vulkan.h"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/vulkan/vulkan.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/vulkan/vulkan.h"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/vulkan/vulkan.h"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/vulkan/vulkan.h"
@@ -5077,6 +5410,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -5126,7 +5461,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -5164,6 +5499,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -5213,6 +5550,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -5262,6 +5601,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -5315,7 +5656,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -5353,6 +5694,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -5450,6 +5793,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/glslc.com"
       - "C:/Program Files/Docker/Docker/resources/bin/glslc.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/glslc"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslc.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslc.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslc"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslc.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslc.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslc"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslc.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslc.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslc"
@@ -5555,6 +5904,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -5604,7 +5955,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -5642,6 +5993,8 @@ events:
       - "C:/Program Files/dotnet/"
       - "D:/Qt/6.10.2/mingw_64/bin/"
       - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Program Files/Cloudflare/Cloudflare WARP/"
@@ -5739,6 +6092,12 @@ events:
       - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator.com"
       - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator.exe"
       - "C:/Program Files/Docker/Docker/resources/bin/glslangValidator"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslangValidator.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslangValidator.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/Scripts/glslangValidator"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslangValidator.com"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslangValidator.exe"
+      - "C:/Users/ADMIN/AppData/Local/Programs/Python/Python314/glslangValidator"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslangValidator.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslangValidator.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glslangValidator"
@@ -5844,6 +6203,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -5888,7 +6249,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -5926,11 +6287,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5968,6 +6329,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6008,7 +6371,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Widgets"
     configs:
       -
@@ -6043,11 +6406,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -6085,6 +6448,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6129,7 +6494,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Concurrent"
     configs:
       -
@@ -6167,11 +6532,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -6209,6 +6574,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6253,7 +6620,7 @@ events:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake:40 (include)"
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Network"
     configs:
       -
@@ -6291,11 +6658,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6network-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6network-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -6333,6 +6700,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6373,7 +6742,7 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6Multimedia"
     configs:
       -
@@ -6408,11 +6777,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6MultimediaConfig.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6MultimediaConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6multimedia-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6multimedia-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -6450,6 +6819,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6489,7 +6860,7 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:29 (find_package)"
+      - "CMakeLists.txt:31 (find_package)"
     name: "Qt6"
     components:
       -
@@ -6535,11 +6906,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -6577,6 +6948,8 @@ events:
         - "C:\\Program Files\\dotnet\\"
         - "D:\\Qt\\6.10.2\\mingw_64\\bin"
         - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
@@ -6617,369 +6990,4 @@ events:
         - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6"
         - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"
         - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake:40 (include)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:30 (find_package)"
-    name: "Qt6OpenGL"
-    configs:
-      -
-        filename: "Qt6OpenGLConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "qt6opengl-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
-      exact: false
-    settings:
-      required: "optional"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "Qt6OpenGL"
-      search_paths:
-        - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/.."
-        - "D:/Qt/6.10.2/mingw_64/lib/cmake"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: false
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6OpenGLConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/qt6opengl-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake"
-      mode: "config"
-      version: "6.10.2"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "D:/Qt/6.10.2/mingw_64"
-      ENV{PATH}:
-        - "D:\\JetBrains\\CLion\\bin\\mingw\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "c:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\Qt\\6.10.2\\mingw_64\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\ADMIN\\.lmstudio\\bin"
-        - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Ollama"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\re"
-        - "C:\\Program Files\\fastfetch"
-        - "D:\\JetBrains\\Toolbox\\scripts"
-        - "D:\\cursor\\resources\\app\\bin"
-        - "D:\\Antigravity\\bin"
-        - "D:\\JetBrains\\CLion\\bin\\ninja\\win\\x64"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OfflineDictionary"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/JetBrains/CLion/bin/cmake/win/x64"
-        - "C:/Program Files (x86)/OfflineDictionary"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake:40 (include)"
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:30 (find_package)"
-    name: "Qt6OpenGLWidgets"
-    configs:
-      -
-        filename: "Qt6OpenGLWidgetsConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "qt6openglwidgets-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "6.10.2"
-      version_complete: "6.10.2"
-      exact: false
-    settings:
-      required: "optional"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "Qt6OpenGLWidgets"
-      search_paths:
-        - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/.."
-        - "D:/Qt/6.10.2/mingw_64/lib/cmake"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: false
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6OpenGLWidgetsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6openglwidgets-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6OpenGLWidgetsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/qt6openglwidgets-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake"
-      mode: "config"
-      version: "6.10.2"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "D:/Qt/6.10.2/mingw_64"
-      ENV{PATH}:
-        - "D:\\JetBrains\\CLion\\bin\\mingw\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "c:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\Qt\\6.10.2\\mingw_64\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\ADMIN\\.lmstudio\\bin"
-        - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Ollama"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\re"
-        - "C:\\Program Files\\fastfetch"
-        - "D:\\JetBrains\\Toolbox\\scripts"
-        - "D:\\cursor\\resources\\app\\bin"
-        - "D:\\Antigravity\\bin"
-        - "D:\\JetBrains\\CLion\\bin\\ninja\\win\\x64"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OfflineDictionary"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/JetBrains/CLion/bin/cmake/win/x64"
-        - "C:/Program Files (x86)/OfflineDictionary"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:241 (find_package)"
-      - "CMakeLists.txt:30 (find_package)"
-    name: "Qt6Charts"
-    configs:
-      -
-        filename: "Qt6ChartsConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "qt6charts-config.cmake"
-        kind: "cmake"
-    version_request:
-      exact: false
-    settings:
-      required: "optional"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "Qt6Charts"
-      search_paths:
-        - "D:/Qt/6.10.2/mingw_64/lib/cmake"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: false
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/Qt6ChartsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/pkgRedirects/qt6charts-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6ChartsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "D:/Qt/6.10.2/mingw_64/lib/cmake/qt6charts-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake"
-      mode: "config"
-      version: "6.10.2"
-    search_context:
-      CMAKE_PREFIX_PATH:
-        - "D:/Qt/6.10.2/mingw_64"
-      ENV{PATH}:
-        - "D:\\JetBrains\\CLion\\bin\\mingw\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "c:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\dotnet\\"
-        - "D:\\Qt\\6.10.2\\mingw_64\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
-        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\ProgramData\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\MinGW\\bin"
-        - "C:\\Program Files\\Java\\jdk1.8.0_202\\bin"
-        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
-        - "C:\\Program Files\\Java\\jdk-17\\bin"
-        - "C:\\Program Files\\Git\\cmd"
-        - "C:\\apache-maven-3.9.11\\bin"
-        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
-        - "C:\\Program Files\\Cloudflare\\Cloudflare WARP\\"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Microsoft\\WindowsApps"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\Users\\ADMIN\\.lmstudio\\bin"
-        - "C:\\Program Files\\Azure Data Studio\\bin"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Ollama"
-        - "C:\\Users\\ADMIN\\AppData\\Local\\Programs\\cursor\\re"
-        - "C:\\Program Files\\fastfetch"
-        - "D:\\JetBrains\\Toolbox\\scripts"
-        - "D:\\cursor\\resources\\app\\bin"
-        - "D:\\Antigravity\\bin"
-        - "D:\\JetBrains\\CLion\\bin\\ninja\\win\\x64"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/OfflineDictionary"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "C:/Program Files"
-        - "C:/Program Files (x86)"
-        - "D:/JetBrains/CLion/bin/cmake/win/x64"
-        - "C:/Program Files (x86)/OfflineDictionary"
 ...

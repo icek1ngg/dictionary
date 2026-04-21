@@ -95,7 +95,7 @@
 #define __cpp_aligned_new 201606L
 #define __FLT32_MAX_10_EXP__ 38
 #define __FLT64X_EPSILON__ 1.08420217248550443400745280086994171e-19F64x
-#define DICT_SOURCE_DIR "C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0"
+#define DICT_SOURCE_DIR "C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary"
 #define __STDC_HOSTED__ 1
 #define __DEC64_MIN_EXP__ (-382)
 #define __WIN64 1

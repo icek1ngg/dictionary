@@ -1,6 +1,6 @@
-C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/YPKJ5OE7LN/moc_DictionaryView.cpp: C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/DictionaryView.h \
-  C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/moc_predefs.h \
-  C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_db.h \
+C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/OfflineDictionary_autogen/YPKJ5OE7LN/moc_DictionaryView.cpp: C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/DictionaryView.h \
+  C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/OfflineDictionary_autogen/moc_predefs.h \
+  C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/core/dict_db.h \
   D:/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
   D:/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
   D:/JetBrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/atomic \

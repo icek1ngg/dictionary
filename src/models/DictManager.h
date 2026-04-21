@@ -7,6 +7,9 @@
 
 extern "C" {
 #include "core/dict_db.h"
+#include "core/dict_search.h"
+#include "core/dict_history.h"
+#include "core/dict_bookmark.h"
 }
 
 class DictManager : public QObject {

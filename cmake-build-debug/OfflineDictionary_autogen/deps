@@ -1,47 +1,127 @@
 OfflineDictionary_autogen/timestamp: \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/CMakeLists.txt \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CMakeCCompiler.cmake \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CMakeRCCompiler.cmake \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/CMakeFiles/4.1.2/CMakeSystem.cmake \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/cmake-build-debug/OfflineDictionary_autogen/moc_predefs.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_bookmark.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_db.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_history.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/core/dict_search.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/main.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/models/DictManager.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/models/DictManager.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/BookmarkWidget.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/BookmarkWidget.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/DictionaryView.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/DictionaryView.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/MainWindow.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/MainWindow.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/SearchWidget.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/SearchWidget.h \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/WordEditorDialog.cpp \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/WordEditorDialog.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/CMakeLists.txt \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CMakeCCompiler.cmake \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CMakeRCCompiler.cmake \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/CMakeFiles/4.1.2/CMakeSystem.cmake \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/cmake-build-debug/OfflineDictionary_autogen/moc_predefs.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/core/dict_bookmark.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/core/dict_db.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/core/dict_history.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/core/dict_search.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/main.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/models/DictManager.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/models/DictManager.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/BookmarkWidget.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/BookmarkWidget.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/DictionaryView.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/DictionaryView.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/MainWindow.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/MainWindow.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/SearchWidget.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/SearchWidget.h \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/WordEditorDialog.cpp \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/WordEditorDialog.h \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompiler.cmake.in \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXCompilerABI.cpp \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeMinGWFindMake.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCCompiler.cmake.in \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystem.cmake.in \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestRCCompiler.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCSourceCompiles.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckCXXSourceCompiles.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckIncludeFile.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CheckLibraryExists.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindPackageMessage.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/FindThreads.cmake \
@@ -50,9 +130,13 @@ OfflineDictionary_autogen/timestamp: \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeInspectCXXLinker.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckCompilerFlag.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckFlagCommonConfig.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CheckSourceCompiles.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-CXX.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake \
@@ -60,6 +144,7 @@ OfflineDictionary_autogen/timestamp: \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-CXX.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake \
+	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Determine-CXX.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake \
 	D:/JetBrains/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
@@ -668,9 +753,9 @@ OfflineDictionary_autogen/timestamp: \
 	D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
 	D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	D:/Qt/6.10.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/BookmarkWidget.ui \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/DictionaryView.ui \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/MainWindow.ui \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/SearchWidget.ui \
-	C:/Users/ADMIN/OneDrive/Desktop/C/Dic3.0/src/ui/WordEditorDialog.ui \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/BookmarkWidget.ui \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/DictionaryView.ui \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/MainWindow.ui \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/SearchWidget.ui \
+	C:/Users/ADMIN/OneDrive/Desktop/C/Dictionary/dictionary/src/ui/WordEditorDialog.ui \
 	D:/JetBrains/CLion/bin/cmake/win/x64/bin/cmake.exe
